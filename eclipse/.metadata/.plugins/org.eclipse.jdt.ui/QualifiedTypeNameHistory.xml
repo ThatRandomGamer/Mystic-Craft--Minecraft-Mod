@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.BlockMetal"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.BlockStone"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.DualFurnace.BlockDualFurnace"/>
+<fullyQualifiedTypeName name="net.minecraft.tileentity.TileEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.registry.ClientRegistry"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+</qualifiedTypeNameHistroy>
