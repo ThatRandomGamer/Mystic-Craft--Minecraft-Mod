@@ -1,19 +1,32 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "_ _",
-        "___"
+   
+    "pattern":
+    [
+        "CCC",
+        "S S",
+        "SSS"
     ],
-    "key": {
-        "#": {
-            "item": "minecraft:cobblestone"
-        },
-        "_": {
-            "item": "minecraft:stone_slab"
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:stone",
+            "data": 0
         }
+        ,
+        "S":
+        {
+            "item": "minecraft:stone_slab",
+            "data": 0
+            
+        }
+        
     },
-    "result": {
+   
+    "result":
+    {
         "item": "cm:dual_furnace",
         "count": 1
     }

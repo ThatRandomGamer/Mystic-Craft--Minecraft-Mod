@@ -1,7 +1,0 @@
-package com.TRGamer28.coppermod.blocks;
-
-import net.minecraft.block.Block;
-
-public class BlockMetal extends Block {
-
-}

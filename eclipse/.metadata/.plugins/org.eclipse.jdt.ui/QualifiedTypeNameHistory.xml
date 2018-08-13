@@ -7,4 +7,16 @@
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.client.registry.ClientRegistry"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.world.ModWorldGen"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.Limestone"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.CopperOre"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.TinOre"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.SilverOre"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.CarbonOre"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.util.handlers.GuiHandler"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.DualFurnace.ContainerDualFurnace"/>
+<fullyQualifiedTypeName name="net.minecraft.world.IInteractionObject"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.blocks.DualFurnace.TileEntityDualFurnace"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.network.NetworkRegistry"/>
+<fullyQualifiedTypeName name="com.TRGamer28.coppermod.Main"/>
 </qualifiedTypeNameHistroy>

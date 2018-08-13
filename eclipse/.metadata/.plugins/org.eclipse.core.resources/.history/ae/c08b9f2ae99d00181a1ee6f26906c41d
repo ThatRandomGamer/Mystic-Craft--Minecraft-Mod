@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_slab",
+    "data": 0,
+"S": {
+      "item": "minecraft:stone",
+    "data": 0
+    }
+  },
+  "result": {
+    "item": "cm:dual_furnace"
+  }
+}

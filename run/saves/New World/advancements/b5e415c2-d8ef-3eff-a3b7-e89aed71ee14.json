@@ -1,0 +1,21 @@
+{
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2018-08-11 16:34:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-08-11 16:34:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2018-08-11 16:34:31 +0530",
+      "desert": "2018-08-11 16:35:07 +0530"
+    },
+    "done": false
+  }
+}
