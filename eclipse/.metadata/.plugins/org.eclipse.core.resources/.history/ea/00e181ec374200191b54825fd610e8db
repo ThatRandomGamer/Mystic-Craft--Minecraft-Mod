@@ -1,0 +1,14 @@
+package com.TRGamer28.coppermod.util.compat.JEI.Alloyer;
+
+import mezz.jei.api.recipe.IRecipeCategory;
+import mezz.jei.api.recipe.IRecipeWrapper;
+
+public abstract class AbstractAlloyerRecpieCategory<T extends IRecipeWrapper> implements IRecipeCategory<T>{
+
+	protected static final int input1 = 0;
+	protected static final int input2 = 1;
+	protected static final int fuel = 2;
+	protected static final int output = 3;
+
+	
+}

@@ -1,7 +1,9 @@
 package com.TRGamer28.coppermod;
 
-import com.TRGamer28.coppermod.blocks.DualFurnace.BlockDualFurnace;
-import com.TRGamer28.coppermod.blocks.DualFurnace.TileEntityDualFurnace;
+import java.io.File;
+
+import com.TRGamer28.coppermod.blocks.AlloyFurnace.BlockAlloyFurnace;
+import com.TRGamer28.coppermod.blocks.AlloyFurnace.TileEntityAlloyFurnace;
 import com.TRGamer28.coppermod.init.ModRecipies;
 import com.TRGamer28.coppermod.proxy.CommonProxy;
 import com.TRGamer28.coppermod.util.Reference;
@@ -29,8 +31,10 @@ public class Main {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS,serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
+	public static File config;
+	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event){RegistryHandler.preInitRegistries();}
+	public static void PreInit(FMLPreInitializationEvent event){RegistryHandler.preInitRegistries(event);}
 	{
 
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
@@ -42,12 +46,12 @@ public class Main {
 	public static void init(FMLInitializationEvent event)
 	{
 		ModRecipies.init();
-		RegistryHandler.initRegistries();
+		RegistryHandler.initRegistries(event);
 	}
 	
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event)
 	{
-		RegistryHandler.postInitRegistries();
+		RegistryHandler.postInitRegistries(event);
 	}
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;MysticCraft&apos;&#x0D;&#x0A;- Original project: &apos;MysticCraft&apos;&#x0D;&#x0A;- Original element: &apos;Unconfirmed 871293.crdownload&apos;" description="Delete element" element1="run/mods/Unconfirmed 871293.crdownload" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1552199847563" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "SSS",
+        "SIS",
+        "SIS"
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stone",
+            "data": 0
+        },
+        
+        "I":
+        {
+           "type": "forge:ore_dict",
+           "ore": "ingotCarbon"
+        
+        }
+    },
+   
+    "result":
+    {
+        "item": "cm:copper_block",
+        "count": 1,
+        "data":0
+    }
+}

@@ -12,7 +12,7 @@ import com.TRGamer28.coppermod.blocks.CopperOre;
 import com.TRGamer28.coppermod.blocks.Limestone;
 import com.TRGamer28.coppermod.blocks.SilverOre;
 import com.TRGamer28.coppermod.blocks.TinOre;
-import com.TRGamer28.coppermod.blocks.DualFurnace.BlockDualFurnace;
+import com.TRGamer28.coppermod.blocks.AlloyFurnace.BlockAlloyFurnace;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -41,7 +41,7 @@ public class ModBlocks {
 	 public static final Block RICE_PLANT = new BlockRicePlant("rice_plant");
 	 
 	 //Custome Machines
-		public static final Block DUAL_FURNACE = new BlockDualFurnace("dual_furnace");
+		public static final Block ALLOY_FURNACE = new BlockAlloyFurnace("alloy_furnace");
 
 	 
 }
