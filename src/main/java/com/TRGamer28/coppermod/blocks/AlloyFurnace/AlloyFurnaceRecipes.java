@@ -33,12 +33,12 @@ public class AlloyFurnaceRecipes
 	
 	public void addAlloyRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience) 
 	{
-		if(getSinteringResult(input1, input2) != ItemStack.EMPTY) return;
+		if(getAlloyerResult(input1, input2) != ItemStack.EMPTY) return;
 		this.smeltingList.put(input1, input2, result);
 		this.experienceList.put(result, Float.valueOf(experience));
 	}
 	
-	public ItemStack getSinteringResult(ItemStack input1, ItemStack input2) 
+	public ItemStack getAlloyerResult(ItemStack input1, ItemStack input2) 
 	{
 		for(Entry<ItemStack, Map<ItemStack, ItemStack>> entry : this.smeltingList.columnMap().entrySet()) 
 		{
@@ -66,7 +66,7 @@ public class AlloyFurnaceRecipes
 		return this.smeltingList;
 	}
 	
-	public float getSinteringExperience(ItemStack stack)
+	public float getAlloyerExperience(ItemStack stack)
 	{
 		for (Entry<ItemStack, Float> entry : this.experienceList.entrySet()) 
 		{

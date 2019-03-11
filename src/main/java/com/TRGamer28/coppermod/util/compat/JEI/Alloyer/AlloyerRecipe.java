@@ -36,7 +36,7 @@ public class AlloyerRecipe implements IRecipeWrapper {
 	public void drawInfo(Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
 		
 		AlloyFurnaceRecipes recipes = AlloyFurnaceRecipes.getInstance();
-		float experience = recipes.getSinteringExperience(output);
+		float experience = recipes.getAlloyerExperience(output);
 		
 		if(experience > 0) {
 			

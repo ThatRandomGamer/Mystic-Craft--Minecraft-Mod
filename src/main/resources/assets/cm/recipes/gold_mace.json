@@ -12,7 +12,8 @@
     {
         "C":
         {
-            "item": "minecraft:gold_ingot"
+           "type": "forge:ore_dict",
+           "ore": "ingotGold"
         }
         ,
         "S":

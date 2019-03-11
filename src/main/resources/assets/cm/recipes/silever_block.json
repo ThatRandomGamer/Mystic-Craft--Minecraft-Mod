@@ -12,7 +12,8 @@
     {
         "N":
         {
-            "item": "cm:silver_ingot"
+             "type": "forge:ore_dict",
+           "ore": "ingotSilver"
         }
     },
    

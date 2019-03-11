@@ -12,7 +12,8 @@
     {
         "N":
         {
-            "item": "cm:tin_ingot"
+             "type": "forge:ore_dict",
+           "ore": "ingotTin"
         }
     },
    

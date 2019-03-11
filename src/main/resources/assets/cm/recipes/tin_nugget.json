@@ -2,7 +2,8 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "cm:tin_ingot"
+             "type": "forge:ore_dict",
+           "ore": "ingotTin"
         }
     ],
     "result": {
