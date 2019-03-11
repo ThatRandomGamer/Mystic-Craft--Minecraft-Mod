@@ -1,0 +1,32 @@
+package com.TRGamer28.coppermod.util.compat.JEI;
+
+import mezz.jei.api.IModPlugin;
+import mezz.jei.api.IModRegistry;
+import mezz.jei.api.recipe.IRecipeCategoryRegistration;
+import net.minecraft.util.text.translation.I18n;
+
+public class JEICompat implements IModPlugin {
+
+	@Override 
+   public void registerCategories(IRecipeCategoryRegistration registry) {
+		
+		
+	}
+	
+	@Override
+	public void register(IModRegistry registry) {
+		
+
+	}
+	
+	public static String translateToLocal(String key) {
+		if (I18n.canTranslate(key)) return I18n.translateToLocal(key);
+				else return I18n.translateToFallback(key);
+	}
+     public static String translateToLocalFormatted(String key, Object... format);
+
+
+
+}
+
+

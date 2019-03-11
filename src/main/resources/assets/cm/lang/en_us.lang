@@ -48,7 +48,7 @@ tile.copper_ore.name=Copper Ore
 tile.tin_ore.name=Tin Ore
 tile.silver_ore.name=Silver Ore
 tile.carbon_ore.name=Carbon Ore
-tile.dual_furnace.name=Dual Furnace
+tile.alloy_furnace.name=Alloy Furnace
 
 
 //Armor

@@ -47,7 +47,7 @@ public class ToolSai extends Item implements IHasModel
     
 
     /**
-     * Returns the amount of damage this item will deal. One heart of damage is equal to 2 damage points.
+     * Returns the amount of damage this item will deal. One heart of damage is equal to 2 damag points.
      */
     public float getAttackDamage()
     {

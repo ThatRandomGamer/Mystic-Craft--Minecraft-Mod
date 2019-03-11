@@ -1,0 +1,34 @@
+package com.TRGamer28.coppermod.util.compat.JEI.Alloyer;
+
+import mezz.jei.api.IGuiHelper;
+import mezz.jei.api.gui.IDrawable;
+import net.minecraft.client.Minecraft;
+
+public class AlloyerRecipeCategory extends AbstractAlloyerRecipeCategory<AlloyerRecipe> {
+
+	private final IDrawable background;
+	private final String name;
+	
+	public AlloyerRecipeCategory(IGuiHelper helper) {
+		
+		super(helper);
+        background = helper.createDrawable(TEXTRUES, 4, 12, 150, 60);
+        name ="Alloy Furnace";
+	
+	}
+	
+	@Override
+	public IDrawable getBackground() {
+		
+		return background;
+		
+	}
+	
+	@Override
+	public void drawExtras (Minecraft minecraft) {
+		
+		animatedFlame.draw(minecraft, 4, 42);;
+		
+	}
+	
+}

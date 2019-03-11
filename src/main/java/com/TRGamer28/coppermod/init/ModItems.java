@@ -108,7 +108,7 @@ public class ModItems {
 		public static final Item BRONZE_BOOTS = new ArmorBase("bronze_boots", ARMOR_MATERIAL_BRONZE, 1, EntityEquipmentSlot.FEET);
 	 
 	//Food
-		public static final Item RICE_BOWL = new FoodBase("rice_bowl", 3, false);
+		public static final Item RICE_BOWL = new FoodBase("rice_bowl", 5, false);
 		public static final Item FRIED_RICE = new FoodBase("fried_rice", 5, false);
 		public static final Item FRIED_CHICKEN_RICE = new FoodBase("fried_chicken_rice", 7, false);
 		public static final Item BOILED_CHICKEN = new FoodBase("boiled_chicken", 3, false);

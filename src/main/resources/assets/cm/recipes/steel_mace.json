@@ -12,7 +12,8 @@
     {
         "C":
         {
-            "item": "cm:steel_ingot"
+            "type": "forge:ore_dict",
+           "ore": "ingotSteel"
         }
         ,
         "S":

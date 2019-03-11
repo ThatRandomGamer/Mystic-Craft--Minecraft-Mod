@@ -1,8 +1,36 @@
 Symbol range map extraction starting
-Processing 46 files
-startProcessing "com\TRGamer28\coppermod\Main.java" md5: 01473f016b769f08bcc2eddf4b75d6f4
+Processing 54 files
+startProcessing "com\TRGamer28\coppermod\Main.java" md5: 961ba8215bc636c01dd5fefd08d771ce
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\Main.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\AlloyFurnaceRecipes.java" md5: e8824b1bd85da3c111d00386ecd74519
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\AlloyFurnaceRecipes.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\BlockAlloyFurnace.java" md5: 431a2195b74b5e82982d65fc1a8b7cbe
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\BlockAlloyFurnace.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\ContainerAlloyFurnace.java" md5: 300b417309d2b5bb230b1dd1a58c0501
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\ContainerAlloyFurnace.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\GuiAlloyFurnace.java" md5: 4f9e9058dafd2c0770ba54a345d2b129
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\GuiAlloyFurnace.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\TileEntityAlloyFurnace.java" md5: 36f965996857796a4274131652cef61c
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\TileEntityAlloyFurnace.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\slots\SlotAlloyFurnaceFuel.java" md5: b47c4fe4fdc0f6e52c0dc53bac5dcfb5
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\slots\SlotAlloyFurnaceFuel.java"
+
+startProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\slots\SlotAlloyFurnaceOutput.java" md5: 9e227b1cfab9030b932574b2ed5e56e2
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\blocks\AlloyFurnace\slots\SlotAlloyFurnaceOutput.java"
 
 startProcessing "com\TRGamer28\coppermod\blocks\BlockBase.java" md5: 24f2afafdbf6d81a8380edd527dfd377
 Cache Hit!
@@ -28,34 +56,6 @@ startProcessing "com\TRGamer28\coppermod\blocks\CopperOre.java" md5: b179d3d3b05
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\blocks\CopperOre.java"
 
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\BlockDualFurnace.java" md5: 331c83da62d91fd9e7627478f14f50a0
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\BlockDualFurnace.java"
-
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\ContainerDualFurnace.java" md5: 745191cfa456c24c5419466becc46850
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\ContainerDualFurnace.java"
-
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\DualFurnaceRecipes.java" md5: 0fc7c0e0e05e65d9fd96c81eff5983b9
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\DualFurnaceRecipes.java"
-
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\GuiDualFurnace.java" md5: b7b09cbf69cde6ea0abe70df4cad40c5
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\GuiDualFurnace.java"
-
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\TileEntityDualFurnace.java" md5: 43d30a45a6eb8a189b56d28eea305bc9
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\TileEntityDualFurnace.java"
-
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\slots\SlotDualFurnaceFuel.java" md5: 2297b650c68cde0082c86dc5acc6ec5e
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\slots\SlotDualFurnaceFuel.java"
-
-startProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\slots\SlotDualFurnaceOutput.java" md5: 5cc06f0bc8e336fdf707f6d1ce4529df
-Cache Hit!
-endProcessing "com\TRGamer28\coppermod\blocks\DualFurnace\slots\SlotDualFurnaceOutput.java"
-
 startProcessing "com\TRGamer28\coppermod\blocks\Limestone.java" md5: 4999d9e7319c43ccc726b555a5597d75
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\blocks\Limestone.java"
@@ -72,11 +72,11 @@ startProcessing "com\TRGamer28\coppermod\blocks\item\ItemBlockVariants.java" md5
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\blocks\item\ItemBlockVariants.java"
 
-startProcessing "com\TRGamer28\coppermod\init\ModBlocks.java" md5: fbad5ffae415b6d9d520cfe6deb6d460
+startProcessing "com\TRGamer28\coppermod\init\ModBlocks.java" md5: 16dbcea756876a48ff410ad2dfd3aeed
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\init\ModBlocks.java"
 
-startProcessing "com\TRGamer28\coppermod\init\ModItems.java" md5: a37c78f58d0de4418c0d4a5526cb9080
+startProcessing "com\TRGamer28\coppermod\init\ModItems.java" md5: a163516126d204e8b6bd96fc6fdb81b1
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\init\ModItems.java"
 
@@ -156,19 +156,51 @@ startProcessing "com\TRGamer28\coppermod\util\ItemBlockVariants.java" md5: 4afd3
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\util\ItemBlockVariants.java"
 
-startProcessing "com\TRGamer28\coppermod\util\Reference.java" md5: a4fe7185f07100d63cd5792292fcb976
+startProcessing "com\TRGamer28\coppermod\util\Reference.java" md5: f370eb55c3541c397825e5c1933925e3
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\util\Reference.java"
 
-startProcessing "com\TRGamer28\coppermod\util\handlers\GuiHandler.java" md5: ca3ee357c97cf6bd27ce9d16bee0a5ec
+startProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AbstractAlloyerRecipeCategory.java" md5: a414d1215405eaccbffe4aaaee9ce885
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AbstractAlloyerRecipeCategory.java"
+
+startProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AlloyerRecipe.java" md5: c67d2d8c08528d7983f4a81546c3e04f
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AlloyerRecipe.java"
+
+startProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AlloyerRecipeCategory.java" md5: 2aebdd5ce76da429fe58f781f9023e53
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AlloyerRecipeCategory.java"
+
+startProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AlloyerRecipeMaker.java" md5: 58f8ef55a40ef59b7b82e640ea63fc4e
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\JEI\Alloyer\AlloyerRecipeMaker.java"
+
+startProcessing "com\TRGamer28\coppermod\util\compat\JEI\JEICompat.java" md5: d02f9bd9f7f16f2d47bf44a0b8a5a267
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\JEI\JEICompat.java"
+
+startProcessing "com\TRGamer28\coppermod\util\compat\JEI\RecipeCategories.java" md5: 085a08b322739e9044dfd020c972a90f
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\JEI\RecipeCategories.java"
+
+startProcessing "com\TRGamer28\coppermod\util\compat\OreDictionaryCompat.java" md5: 8c6bbdf4045fb82f092c94cf3e473b11
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\compat\OreDictionaryCompat.java"
+
+startProcessing "com\TRGamer28\coppermod\util\handlers\ConfigHandler.java" md5: ffc738cfdaaf30d6f8a90d27514d1df5
+Cache Hit!
+endProcessing "com\TRGamer28\coppermod\util\handlers\ConfigHandler.java"
+
+startProcessing "com\TRGamer28\coppermod\util\handlers\GuiHandler.java" md5: f967b35dd9821c5bd5ee46c2271b0912
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\util\handlers\GuiHandler.java"
 
-startProcessing "com\TRGamer28\coppermod\util\handlers\RegistryHandler.java" md5: 165e6a543746a1a3063149eae7e3b4af
+startProcessing "com\TRGamer28\coppermod\util\handlers\RegistryHandler.java" md5: fb04491bd9453c60392812580d3b1023
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\util\handlers\RegistryHandler.java"
 
-startProcessing "com\TRGamer28\coppermod\util\handlers\TileEntityHandler.java" md5: e76bc14c107175e6164c6219676691f1
+startProcessing "com\TRGamer28\coppermod\util\handlers\TileEntityHandler.java" md5: 856a691bd4b52d9baea2885387f4233c
 Cache Hit!
 endProcessing "com\TRGamer28\coppermod\util\handlers\TileEntityHandler.java"
 
