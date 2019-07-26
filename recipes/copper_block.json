@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+   
+    "key":
+    {
+        "N":
+        {
+            "type": "forge:ore_dict",
+           "ore": "ingotCopper"
+        }
+    },
+   
+    "result":
+    {
+        "item": "cm:copper_block",
+        "count": 1,
+        "data":0
+    }
+}

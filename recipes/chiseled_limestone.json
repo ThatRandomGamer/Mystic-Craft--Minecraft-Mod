@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "   ",
+        "## ",
+        "## "
+    ],
+
+    "key":
+    {
+        "#":
+        {
+            "item": "cm:limestone"
+        }
+         
+
+    },
+
+    "result":
+    {
+        "item": "cm:chiseled_limestone",
+        "count": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "CC ",
+        " S ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+           "type": "forge:ore_dict",
+           "ore": "ingotCopper"
+        }
+        ,
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+   
+    "result":
+    {
+        "item": "cm:copper_ingot_hoe",
+        "count": 1
+    }
+}
