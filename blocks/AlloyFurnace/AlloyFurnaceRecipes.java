@@ -26,7 +26,7 @@ public class AlloyFurnaceRecipes
 	
 	private AlloyFurnaceRecipes() 
 	{
-		addAlloyRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.BRONZE_INGOT), 5.0F);
+		addAlloyRecipe(new ItemStack(ModItems.COPPER_INGOT, 3), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.BRONZE_INGOT, 4), 5.0F);
 		addAlloyRecipe(new ItemStack(Items.IRON_INGOT), new ItemStack(ModItems.CARBON_CRYSTAL), new ItemStack(ModItems.STEEL_INGOT), 5.0F);
 	}
 
