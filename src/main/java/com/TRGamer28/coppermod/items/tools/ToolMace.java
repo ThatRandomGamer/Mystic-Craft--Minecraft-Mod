@@ -8,13 +8,16 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.MobEffects;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
@@ -50,19 +53,14 @@ public class ToolMace extends Item implements IHasModel
     {
         return this.material.getAttackDamage();
     }
-
-    public float getDestroySpeed(ItemStack stack, IBlockState state)
+    public void onEntityDamaged(EntityLivingBase user, Entity target, int level)
     {
-        Block block = state.getBlock();
-
-        if (block == Blocks.WEB)
+        if (target instanceof EntityLivingBase)
         {
-            return 5.0F;
-        }
-        else
-        {
-            Material material = state.getMaterial();
-            return material != Material.PLANTS && material != Material.VINE && material != Material.CORAL && material != Material.LEAVES && material != Material.GOURD ? 1.0F : 1.5F;
+            EntityLivingBase entitylivingbase = (EntityLivingBase)target;
+            int i = 200 + user.getRNG().nextInt(10 * level);
+            entitylivingbase.addPotionEffect(new PotionEffect(MobEffects.SLOWNESS, i,2));
+           
         }
     }
 
@@ -74,27 +72,6 @@ public class ToolMace extends Item implements IHasModel
     {
         stack.damageItem(1, attacker);
         return true;
-    }
-
-    /**
-     * Called when a Block is destroyed using this Item. Return true to trigger the "Use Item" statistic.
-     */
-    public boolean onBlockDestroyed(ItemStack stack, World worldIn, IBlockState state, BlockPos pos, EntityLivingBase entityLiving)
-    {
-        if ((double)state.getBlockHardness(worldIn, pos) != 0.0D)
-        {
-            stack.damageItem(2, entityLiving);
-        }
-
-        return true;
-    }
-
-    /**
-     * Check whether this Item can harvest the given Block
-     */
-    public boolean canHarvestBlock(IBlockState blockIn)
-    {
-        return blockIn.getBlock() == Blocks.WEB;
     }
 
     /**

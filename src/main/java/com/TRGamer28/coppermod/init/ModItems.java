@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.TRGamer28.coppermod.items.food.FoodBase;
+import com.TRGamer28.coppermod.items.food.FoodEffectBase;
+import com.TRGamer28.coppermod.items.food.ItemCorn;
 import com.TRGamer28.coppermod.items.food.ItemRice;
 import com.TRGamer28.coppermod.items.ItemBase;
 import com.TRGamer28.coppermod.items.armor.ArmorBase;
@@ -18,6 +20,7 @@ import com.TRGamer28.coppermod.items.tools.ToolSpade;
 import com.TRGamer28.coppermod.items.tools.ToolSword;
 import com.TRGamer28.coppermod.util.Reference;
 
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -29,6 +32,7 @@ import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 import scala.tools.nsc.settings.Final;
 
@@ -108,13 +112,18 @@ public class ModItems {
 		public static final Item BRONZE_BOOTS = new ArmorBase("bronze_boots", ARMOR_MATERIAL_BRONZE, 1, EntityEquipmentSlot.FEET);
 	 
 	//Food
-		public static final Item RICE_BOWL = new FoodBase("rice_bowl", 5, false);
-		public static final Item FRIED_RICE = new FoodBase("fried_rice", 5, false);
-		public static final Item FRIED_CHICKEN_RICE = new FoodBase("fried_chicken_rice", 7, false);
-		public static final Item BOILED_CHICKEN = new FoodBase("boiled_chicken", 3, false);
-		public static final Item FRIED_CHICKEN = new FoodBase("fried_chicken", 6, false);
+		public static final Item RICE_BOWL = new FoodBase("rice_bowl", 5, 5, false);
+		public static final Item BOILED_CHICKEN = new FoodBase("boiled_chicken", 3, 2, false);
+		public static final Item FRIED_CHICKEN = new FoodBase("fried_chicken", 6, 5, true);
+		public static final Item CORN_COB = new FoodBase("corn_cob", 1, 1, false);
+		public static final Item CORN_COOKED = new FoodBase("corn_cooked", 2, 3, false);
+		public static final Item CORN_COB_COOKED = new FoodBase("corn_cob_cooked", 5, 3, false);
+		public static final Item VEGGIE_STEW = new FoodBase("veggie_stew", 2, 4, false);
+
+		public static final Item EVIL_APPLE = new FoodEffectBase("evil_apple", 4, 2.4f, false, new PotionEffect(MobEffects.POISON, (60*20), 1, false, true));
 
 		
 		public static final Item RICE = new ItemRice("rice", 1, false);
+		public static final Item CORN = new ItemCorn("corn", 1, false);
 
 }

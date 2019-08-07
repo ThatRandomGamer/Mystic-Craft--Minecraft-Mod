@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.TRGamer28.coppermod.blocks.BlockBase;
+import com.TRGamer28.coppermod.blocks.BlockCornPlant;
 import com.TRGamer28.coppermod.blocks.BlockMetal;
 import com.TRGamer28.coppermod.blocks.BlockRicePlant;
 import com.TRGamer28.coppermod.blocks.BlockStone;
@@ -39,6 +40,8 @@ public class ModBlocks {
 
 //Plants
 	 public static final Block RICE_PLANT = new BlockRicePlant("rice_plant");
+	 public static final Block CORN_PLANT = new BlockCornPlant("corn_plant");
+
 	 
 	 //Custome Machines
 		public static final Block ALLOY_FURNACE = new BlockAlloyFurnace("alloy_furnace");

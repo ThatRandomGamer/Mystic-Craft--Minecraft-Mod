@@ -4,6 +4,7 @@ import java.io.File;
 
 import com.TRGamer28.coppermod.blocks.AlloyFurnace.BlockAlloyFurnace;
 import com.TRGamer28.coppermod.blocks.AlloyFurnace.TileEntityAlloyFurnace;
+import com.TRGamer28.coppermod.init.ModEnchantments;
 import com.TRGamer28.coppermod.init.ModRecipies;
 import com.TRGamer28.coppermod.proxy.CommonProxy;
 import com.TRGamer28.coppermod.util.Reference;

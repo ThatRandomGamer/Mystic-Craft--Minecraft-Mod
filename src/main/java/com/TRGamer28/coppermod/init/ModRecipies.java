@@ -13,6 +13,8 @@ public class ModRecipies {
 		GameRegistry.addSmelting(ModBlocks.LIMESTONE, new ItemStack(ModBlocks.MARBLE, 1), 2.0f);
 		GameRegistry.addSmelting(ModBlocks.CARBON_ORE, new ItemStack(ModItems.CARBON_CRYSTAL, 1), 2.0f);
 		GameRegistry.addSmelting(Items.WATER_BUCKET, new ItemStack(ModItems.BOILED_WATER, 1), 2.0f);
+		GameRegistry.addSmelting(ModItems.CORN, new ItemStack(ModItems.CORN_COOKED, 1), 2.0f);
+		GameRegistry.addSmelting(ModItems.CORN_COB, new ItemStack(ModItems.CORN_COB_COOKED, 1), 2.0f);
 
 
 

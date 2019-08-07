@@ -7,6 +7,7 @@ import com.TRGamer28.coppermod.blocks.AlloyFurnace.AlloyFurnaceRecipes;
 import com.TRGamer28.coppermod.util.compat.JEI.JEICompat;
 
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
@@ -27,8 +28,8 @@ public class AlloyerRecipe implements IRecipeWrapper {
 	@Override
 	public void getIngredients(IIngredients ingredients) {
 		
-		ingredients.setInput(ItemStack.class, inputs);
-		ingredients.setOutput(ItemStack.class, output);
+		ingredients.setInputs(VanillaTypes.ITEM, inputs);
+		ingredients.setOutput(VanillaTypes.ITEM, output);
 		
 	}
 	

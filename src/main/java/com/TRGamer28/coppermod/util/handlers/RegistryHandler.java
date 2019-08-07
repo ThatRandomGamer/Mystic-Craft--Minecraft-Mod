@@ -3,12 +3,16 @@ package com.TRGamer28.coppermod.util.handlers;
 import com.TRGamer28.coppermod.Main;
 import com.TRGamer28.coppermod.blocks.AlloyFurnace.TileEntityAlloyFurnace;
 import com.TRGamer28.coppermod.init.ModBlocks;
+import com.TRGamer28.coppermod.init.ModEnchantments;
 import com.TRGamer28.coppermod.init.ModItems;
+import com.TRGamer28.coppermod.init.ModPotions;
 import com.TRGamer28.coppermod.util.IHasModel;
 import com.TRGamer28.coppermod.util.compat.OreDictionaryCompat;
 
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
+import net.minecraft.potion.Potion;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -35,6 +39,12 @@ public class RegistryHandler
 	   TileEntityHandler.registerTileEntities();
    }
    
+   @SubscribeEvent
+   public static void onEnchantmentRegister(RegistryEvent.Register<Enchantment>event)
+   {
+	   event.getRegistry().registerAll(ModEnchantments.ENCHANTMENTS.toArray(new Enchantment[0]));
+   }
+ 
    @SubscribeEvent
    public static void onModelRegister(ModelRegistryEvent event)
    {
@@ -73,6 +83,7 @@ public class RegistryHandler
 {
 	NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
 	OreDictionaryCompat.registerOres();
+	ModPotions.registerPotions();
 }
 	
 	public static void postInitRegistries(FMLPostInitializationEvent event) {}

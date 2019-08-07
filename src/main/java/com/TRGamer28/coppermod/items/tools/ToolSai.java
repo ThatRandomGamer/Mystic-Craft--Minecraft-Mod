@@ -65,7 +65,7 @@ public class ToolSai extends Item implements IHasModel
         else
         {
             Material material = state.getMaterial();
-            return material != Material.PLANTS && material != Material.VINE && material != Material.CORAL && material != Material.LEAVES && material != Material.GOURD ? 1.0F : 1.5F;
+            return material != Material.PLANTS && material != Material.VINE? 1.0F : 1.5F;
         }
     }
 
