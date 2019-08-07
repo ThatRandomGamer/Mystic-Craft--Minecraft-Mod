@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cm:corn"
+        },
+        {
+            "item": "minecraft:carrot"
+        },
+{
+            "item": "minecraft:bowl"
+        }
+    ],
+    "result": {
+        "item": "cm:veggie_stew",
+        "count": 1
+    }
+}

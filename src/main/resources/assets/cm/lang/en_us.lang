@@ -1,5 +1,4 @@
 //Items
-
 item.copper_ingot.name=Copper Ingot
 item.copper_nugget.name=Copper Nugget
 item.silver_ingot.name=Silver Ingot
@@ -12,6 +11,8 @@ item.steel_ingot.name=Steel Ingot
 item.steel_nugget.name=Steel Nugget
 item.boiled_water.name= Boiled Water
 item.carbon_crystal.name= Carbon Crystal
+
+
 
 //Tools
 item.copper_ingot_sword.name=Copper Sword
@@ -34,6 +35,7 @@ items.gold_mace.name=Gold Mace
 item.steel_mace.name=Steel Mace
 item.diamond_mace.name=Diamond Mace
  
+ 
 
 //Blocks
 tile.copper_block.name=Copper Block
@@ -51,6 +53,7 @@ tile.carbon_ore.name=Carbon Ore
 tile.alloy_furnace.name=Alloy Furnace
 
 
+
 //Armor
 item.bronze_helmet.name=Bronze Helmet
 item.bronze_chestplate.name=Bronze Chestplate
@@ -62,8 +65,31 @@ item.bronze_boots.name=Bronze Boots
 //Food and Crops
 item.rice_bowl.name=Rice Bowl
 item.rice.name=Rice
+item.corn.name=Corn
+item.veggie_stew.name=Veggie Stew
+item.corn_cob.name=Corn Cob
+item.corn_cooked.name=Cooked Corn
+item.corn_cob_cooked.name=Cooked Corn Cob
+
 item.fried_chicken.name=Fried Chicken
 item.boiled_chicken.name=Boiled Chicken
-item.fried_rice.name=Fried Rice
-item.fried_chicken_rice.name=Fried Chicken Rice
+
 tile.rice_plant.name=Rice Plant
+tile.corn_plant.name=Corn Plant
+
+
+
+//Enchantments
+enchantment.heat_walker= Heat Walker
+enchantment.ice_aspect= Ice Aspect
+enchantment.bleeding= Bleeding
+enchantment.thunder= Thunder
+
+
+
+//Potions
+tipped_arrow.effect.test_potion.name= Tipped Arrow of Rigidity
+potion.effect.test_potion.name= Potion of Rigidity
+effect.test_potion.name= Rigidity
+splash.effect.test_potion.name= Splash Potion of Rigidity
+lingering.effect.test_potion.name=Lingering Potion of Rigidity
